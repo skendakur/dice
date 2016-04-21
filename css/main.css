@@ -1,0 +1,77 @@
+#dice_space {
+  position: absolute;
+  right: 45%;
+  left: 45%;
+/*Percentages move with the screen, pixels are fixed positions.*/
+}
+
+#dice_space div {
+  background-color: lightblue;
+  border: 2px solid black;
+  border-radius: 5px;
+  position: relative;
+  margin-top: 5px;
+}
+
+.height_width {
+  height: 80px;
+  width: 80px;
+}
+
+.dot{
+  height: 16px;
+  width: 16px;
+  background-color: black;
+  display: block;
+  border-radius: 100%;
+  /*If you have a perfect square & want to make a perfect circle, give it a border-radius of 100%.*/
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.top_left {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.bottom_right {
+  position: absolute;
+  top: 75%;
+  left: 75%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.bottom_left {
+  position: absolute;
+  top: 75%;
+  left: 25%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.top_right {
+  position: absolute;
+  top: 25%;
+  left: 75%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.center_left {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.center_right {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translateX(-50%) translateY(-50%);
+}
